@@ -1,6 +1,8 @@
  
 #  Gatsby Image Focused Trade Landing Page
 
+(Demo)[http://gatsbylandingpage.nicklarosa.net/]
+
 ## 🚀 Quick start
 
 1.  **Create your Gatsby Landing Page.**
