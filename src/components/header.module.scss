@@ -1,0 +1,12 @@
+.main__header {
+}
+
+.top__right {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .top__right span {
+    display: none;
+  }
+}

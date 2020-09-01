@@ -1,0 +1,37 @@
+.hero {
+  min-height: 50vh;
+  width: 100%;
+}
+
+.bg__wrapper {
+  position: relative;
+}
+
+.bg__content {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  z-index: 2;
+
+  @media screen and (min-width: 768px) {
+    left: 50%;
+  }
+}
+
+.bg__heading {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 45px !important;
+  line-height: 50px !important;
+  font-weight: 700;
+  max-width: 450px;
+}
+
+@media screen and (min-width: 768px) {
+  .bg__heading {
+    color: white;
+    font-size: 80px;
+  }
+}

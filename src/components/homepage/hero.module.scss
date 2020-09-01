@@ -1,0 +1,57 @@
+.hero {
+  height: calc(100vh - 100px);
+  width: 100%;
+}
+
+.bg__wrapper {
+  position: relative;
+}
+
+.bg__content {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  z-index: 2;
+}
+
+.bg__heading {
+  color: white;
+  font-size: 28px !important;
+  line-height: 36px !important;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .bg__heading {
+    font-size: 65px !important;
+    line-height: 75px !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg__heading {
+    color: white;
+    font-size: 80px;
+  }
+}
+
+.bg__cta {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  button,
+  a {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    span {
+      white-space: nowrap;
+    }
+    @media screen and (min-width: 768px) {
+      margin-left: 0px;
+      margin-right: 10px;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.services__wrapper {
+  background-color: var(--color-gray-bg);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: var(--color-gray-text);
+  h2 {
+    color: var(--color-primary);
+    font-weight: 700;
+    text-align: center;
+    font-size: 45px;
+  }
+}
+
+.services__heading__tile {
+  text-align: center;
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.services__paragraph__tile {
+  padding: 0 1.25rem 1.25rem 1.25rem;
+}
+
+.services__inner {
+  max-width: 100%;
+  width: var(--content-w-regular);
+  padding: 0 1.25rem;
+  margin: 0 auto;
+}
+
+.services__col {
+  // margin-bottom: 35px;
+  background-color: white;
+}
+
+.services__paragraph {
+  margin-top: 45px;
+  text-align: center;
+}
+
+.services__grid {
+  margin-top: 45px;
+}
+
+.branded__heading {
+  color: var(--color-primary);
+  text-align: center;
+  font-weight: 700;
+}

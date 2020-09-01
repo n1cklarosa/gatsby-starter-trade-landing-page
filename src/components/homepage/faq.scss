@@ -1,0 +1,104 @@
+.accordion {
+  border: 0px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+
+  // border-bottom: 1px solid var(--color-gray-bg);
+}
+
+.accordion__item + .accordion__item {
+  border-top: 1px solid var(--color-gray-bg);
+}
+
+.accordion__button {
+  position: relative;
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  font-weight: 700;
+  font-size: 28px;
+  outline: none;
+  cursor: pointer;
+  // border-top: 1px solid var(--color-gray-bg);
+}
+
+.accordian__paragraph {
+  text-align: center;
+  color: var(--color-gray-text);
+  margin-bottom: 45px;
+}
+
+.accordian__heading {
+  font-size: 45px;
+  text-align: center;
+  color: var(--color-primary);
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.accordion__button:hover {
+  background-color: white;
+  color: var(--color-primary);
+}
+
+.accordion__button:before {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  display: inline-block;
+  content: "";
+  height: 15px;
+  width: 15px;
+  font-size: 28px;
+  margin-right: 20px;
+  border-bottom: 2px solid var(--color-gray-text);
+  border-right: 2px solid var(--color-gray-text);
+  transform: rotate(45deg);
+}
+
+.accordion__button[aria-expanded="true"]::before,
+.accordion__button[aria-selected="true"]::before {
+  // transform: rotate(-225deg);
+}
+
+[hidden] {
+  display: none;
+}
+
+.accordion__panel {
+  padding: 20px;
+  animation: fadein 0.35s ease-in;
+  color: var(--color-gray-text);
+}
+
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.accordian__wrapper {
+  background-color: white;
+  padding-top: 80px !important;
+  padding-bottom: 80px !important;
+  width: 100%;
+}
+
+.accordian__container {
+  background-color: white;
+  max-width: 100%;
+  width: var(--content-w-regular);
+  padding: 0 1.25rem;
+  margin: 0 auto;
+}

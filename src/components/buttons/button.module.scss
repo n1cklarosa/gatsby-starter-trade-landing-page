@@ -1,0 +1,76 @@
+.button__black {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  white-space: nowrap;
+}
+.button__white {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px 16px 10px 45px;
+  // line-height: 40px;
+  background-color: white;
+  color: black;
+  border-radius: 30px;
+  position: relative;
+  height: 40px;
+  white-space: nowrap;
+  span {
+    // line-height: 40px;
+    white-space: nowrap;
+  }
+}
+.button__white::before {
+  content: " ";
+  position: absolute;
+  background: url("/phone.svg") no-repeat center center;
+  background-size: 20px 20px;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+}
+.button__phone_black {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px 16px 10px 45px;
+  background-color: var(--color-primary);
+  color: white;
+  border-radius: 30px;
+  position: relative;
+
+  @media screen and (max-width: 768px) {
+    padding-left: 25px;
+  }
+}
+.button__phone_black::before {
+  content: " ";
+  background: url("/phone.svg") no-repeat center center;
+  background-size: 20px 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+}
+
+.button {
+  border-radius: 30px;
+}
+
+.button.white {
+  border-radius: 30px;
+}
+
+.button {
+  border-radius: 30px;
+}

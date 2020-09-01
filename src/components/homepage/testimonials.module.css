@@ -1,0 +1,91 @@
+.swiper__wrapper {
+  padding-top: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  max-width: 100%;
+}
+
+.swiper__inner {
+  /* padding: 0 1.25rem; */
+  max-width: 100%;
+  width: var(--content-w-regular);
+  margin: 0 auto;
+}
+
+.swiper__inner h2 {
+  padding: 0 1.25rem;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.swiper__inner blockquote {
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  font-style: italic;
+}
+
+.swiper__inner blockquote:before {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  content: open-quote;
+  color: var(--color-primary);
+  font-size: 30px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+.swiper__inner blockquote:after {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  content: close-quote;
+  color: var(--color-primary);
+  font-size: 30px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper__inner blockquote {
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+    font-style: italic;
+  }
+  .swiper__inner blockquote:before {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    content: open-quote;
+    color: var(--color-primary);
+    font-size: 80px;
+    line-height: 80px;
+    font-style: normal;
+  }
+
+  .swiper__inner blockquote:after {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    content: close-quote;
+    color: var(--color-primary);
+    font-size: 80px;
+    line-height: 80px;
+    font-style: normal;
+  }
+}
+.swiper__slide {
+  padding-top: 00px;
+  padding-bottom: 140px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.slider__author {
+  margin-top: 30px;
+}
