@@ -1,5 +1,5 @@
-phone: 02 8005 7457
-introParagraph: Professional, Friendly, Affordable Freelance Web Developer from Sydney
+phone: 02 5555 0000
+introParagraph: Professional landing page to help generate leads for your image based trade website
 introImage: "homepage/bg2.jpg"
 aboutParagraphs:
   - paragraph: Aenean ut eros et nisl sagittis vestibulum. Aenean massa. Etiam iaculis nunc ac metus.
@@ -12,16 +12,16 @@ services:
     paragraph: Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Cras ultricies mi eu turpis hendrerit fringilla. Ut tincidunt tincidunt erat. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
     image: homepage/branded-intro.jpg
   - title: Here is a Service
-    paragraph: Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Cras ultricies mi eu turpis hendrerit fringilla. Ut tincidunt tincidunt erat. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+    paragraph: Nullam dictum felis eu pede mollis pretium. Nullam tincidunt adipiscing enim. Praesent venenatis metus at tortor pulvinar varius. Fusce fermentum odio nec arcu.
     image: homepage/hero.jpg
   - title: Here is another Service
     paragraph: Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Cras ultricies mi eu turpis hendrerit fringilla. Ut tincidunt tincidunt erat. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
     image: homepage/bg.jpg
-testimonialsHeading: What my clients have to say
+testimonialsHeading: What my customers have to say
 faqHeading: Common Questions
 faqParagraph: Aenean ut eros et nisl sagittis vestibulum. Aenean massa. Etiam iaculis nunc ac metus.
 faqs:
-  - question: Here is a common question my many of our customers
+  - question: Here is a common question many of our customers as us
     answer: Aenean ut eros et nisl sagittis vestibulum. Aenean vulputate eleifend tellus. Suspendisse potenti. Nulla sit amet est. Curabitur nisi.Aenean ut eros et nisl sagittis vestibulum. Aenean vulputate eleifend tellus. Suspendisse potenti. Nulla sit amet est. Curabitur nisi.
   - question: Here is another common question my some of our smaller customers
     answer: Aenean ut eros et nisl sagittis vestibulum. Aenean vulputate eleifend tellus. Suspendisse potenti. Nulla sit amet est. Curabitur nisi.

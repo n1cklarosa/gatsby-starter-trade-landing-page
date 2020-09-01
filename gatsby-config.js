@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Nick La Rosa - Freelance Web Developer`,
+    title: `Gatsby Starter - Image Focused Landing Page`,
     description: `A Sydney based freelance web developer.`,
     author: `@nick_la_rosa`,
-    phone: `02 8005 7457`,
+    phone: `02 5555 0000`,
   },
   plugins: [
     "gatsby-plugin-chakra-ui",
